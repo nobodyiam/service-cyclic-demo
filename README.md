@@ -19,12 +19,12 @@ This program contains 3 applications:
 To demostrate the issue with cyclic references, we designed 2 scenarios:
 
 1. Non cyclic scenario, which has the invocation hierarchy as follows:
-	* A1 -> C1
-	* B2 -> C2
+	* a1 -> c1
+	* b2 -> c2
 
 2. Cyclic scenario, which has the invocation hierarchy as follows:
-	* A1 -> B1
-	* B2 -> A2
+	* a1 -> b1
+	* b2 -> a2
 
 To trigger the disaster, 2 burst requests to a1 and b2 will be injected in the 5th second.
 
