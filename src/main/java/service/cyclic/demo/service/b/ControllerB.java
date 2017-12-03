@@ -24,7 +24,7 @@ public class ControllerB {
   private boolean enableCyclic;
 
   @RequestMapping(method = RequestMethod.GET, value = "/b1")
-  public String a1() {
+  public String b1() {
     try {
       TimeUnit.MILLISECONDS.sleep(b1LatencyInMilli);
     } catch (InterruptedException e) {
@@ -35,7 +35,7 @@ public class ControllerB {
   }
 
   @RequestMapping(method = RequestMethod.GET, value = "/b2")
-  public String a2() {
+  public String b2() {
     try {
       TimeUnit.MILLISECONDS.sleep(b2LatencyInMilli);
     } catch (InterruptedException e) {

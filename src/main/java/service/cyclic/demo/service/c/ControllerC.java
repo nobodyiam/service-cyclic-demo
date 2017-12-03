@@ -21,7 +21,7 @@ public class ControllerC {
   private long c2LatencyInMilli;
 
   @RequestMapping(method = RequestMethod.GET, value = "/c1")
-  public String a1() {
+  public String c1() {
     try {
       TimeUnit.MILLISECONDS.sleep(c1LatencyInMilli);
     } catch (InterruptedException e) {
@@ -32,7 +32,7 @@ public class ControllerC {
   }
 
   @RequestMapping(method = RequestMethod.GET, value = "/c2")
-  public String a2() {
+  public String c2() {
     try {
       TimeUnit.MILLISECONDS.sleep(c2LatencyInMilli);
     } catch (InterruptedException e) {
