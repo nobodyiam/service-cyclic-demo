@@ -26,6 +26,21 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="Throughput Timer" enabled="true">
+          <collectionProp name="load_profile">
+            <collectionProp name="1817498538">
+              <stringProp name="49">1</stringProp>
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="52">4</stringProp>
+            </collectionProp>
+            <collectionProp name="-238502657">
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="1660">40</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.timers.VariableThroughputTimer>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
@@ -129,6 +144,21 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="Throughput Timer" enabled="true">
+          <collectionProp name="load_profile">
+            <collectionProp name="1817498538">
+              <stringProp name="49">1</stringProp>
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="52">4</stringProp>
+            </collectionProp>
+            <collectionProp name="-294520805">
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="1598">20</stringProp>
+              <stringProp name="1660">40</stringProp>
+            </collectionProp>
+          </collectionProp>
+        </kg.apc.jmeter.timers.VariableThroughputTimer>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
