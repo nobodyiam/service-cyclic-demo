@@ -41,7 +41,7 @@ For your simplicity, the `Throughput Shaping Timer` plugin is included in this p
 2. Run `service.cyclic.demo.service.a.ApplicationA`
 3. Run `service.cyclic.demo.service.b.ApplicationB`
 4. Run `cyclic-demo.jmx` with Apache Jmeter
-5. You will find the invocations start to fail since the 5th second, and will continue to fail even all the burst requests are gone, i.e. Application A and Application B can not recover from such scenarios by themselves due to the cyclic references between them
+5. You will find the invocations start to fail since the 15th second, and will continue to fail even all the burst requests are gone, i.e. Application A and Application B can not recover from such scenarios by themselves due to the cyclic references between them
 
 ### 2.3 Non cyclic scenario
 
@@ -50,4 +50,4 @@ For your simplicity, the `Throughput Shaping Timer` plugin is included in this p
 3. Run `service.cyclic.demo.service.b.ApplicationB`
 4. Run `service.cyclic.demo.service.c.ApplicationC`
 5. Run `cyclic-demo.jmx` with Apache Jmeter
-6. You will find the result is satisfying. Only a very small jitter happened in the 5th second
+6. You will find the result is satisfying. Only a very small jitter happened in the 15th second
